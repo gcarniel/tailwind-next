@@ -11,10 +11,12 @@ export default function Profile() {
       />
 
       <div className="flex flex-col truncate">
-        <span className="text-sm font-semibold text-zinc-700">
+        <span className="text-sm font-semibold text-zinc-700 dark:text-zinc-100">
           Gabriel Carniel
         </span>
-        <span className="text-sm text-zinc-500">gcarniel@outlook.com</span>
+        <span className="text-sm text-zinc-500 dark:text-zinc-400">
+          gcarniel@outlook.com
+        </span>
       </div>
 
       <Button type="button" variant="ghost">
